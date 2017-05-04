@@ -16,3 +16,7 @@ mod 'puppetlabs-apache', '1.11.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'nginx',
+  :git => 'https://github.com/mafitconsulting/puppet-nginx.git',
+  :ref => 'master'
