@@ -3,7 +3,7 @@ profile::nginx::vhosts:
  - 'fqdn': 'fieldhousem5.mylabserver.com'
    'port': 80
    'server_aliases': ''
- - 'fqdn': 'fieldhousem5..mylabserver.com'
+ - 'fqdn': 'fieldhousem5.mylabserver.com'
    'port': 80
    'server_aliases': 'fieldhousem5b.mylabserver.com'
 
