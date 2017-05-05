@@ -1,0 +1,6 @@
+---
+profile::apache::apache_vhost_servers:
+ fieldhousem3.mylabserver.com:
+   port: 80
+   docroot: /var/www/fieldhousem3.mylabserver.com
+
