@@ -17,18 +17,6 @@ mod 'puppetlabs-apache', '1.11.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ntp',
-  :git => 'https://github.com/mafitconsulting/puppet-ntp.git',
-  :ref => 'production'
-
-mod 'nginx',
-  :git => 'https://github.com/mafitconsulting/puppet-nginx.git',
-  :ref => 'master'
-
-mod 'profile',
-  :git => 'https://github.com/mafitconsulting/puppet-profile.git',
-  :ref => 'production'
-
-mod 'role',
-  :git => 'https://github.com/mafitconsulting/puppet-role.git',
-  :ref => 'production'
+mod 'tivolilfa',
+  :git => 'https://github.com/mafitconsulting/tivolilfa.git',
+  :ref => 'development'
