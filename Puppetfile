@@ -6,7 +6,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs-stdlib', '4.16.0'
 mod 'puppetlabs-concat', '4.0.0'
 mod 'puppetlabs-apache', '1.11.0'
-mod 'puppet-selinux', '1.0.0'
+mod 'puppet-selinux', '1.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
