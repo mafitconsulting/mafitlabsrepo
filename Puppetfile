@@ -26,3 +26,7 @@ mod 'puppet-profile',
   :git => 'https://github.com/mafitconsulting/puppet-profile.git',
   :ref => 'development'
 
+mod 'puppet-role',
+  :git => 'https://github.com/mafitconsulting/puppet-role.git',
+  :ref => 'development'
+
