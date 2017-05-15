@@ -24,5 +24,5 @@ mod 'tivolilfa',
 
 mod 'puppet-profile',
   :git => 'https://github.com/mafitconsulting/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
 
