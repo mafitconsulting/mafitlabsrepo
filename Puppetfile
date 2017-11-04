@@ -18,6 +18,7 @@ mod 'puppet-selinux', '1.1.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+<<<<<<< HEAD
 mod 'tivolilfa',
   :git => 'https://github.com/mafitconsulting/tivolilfa.git',
   :ref => 'development'
@@ -30,3 +31,20 @@ mod 'puppet-role',
   :git => 'https://github.com/mafitconsulting/puppet-role.git',
   :ref => 'development'
 
+=======
+#mod 'ntp',
+#  :git => 'https://github.com/mafitconsulting/puppet-ntp.git',
+# :ref => 'production'
+
+#mod 'nginx',
+#  :git => 'https://github.com/mafitconsulting/puppet-nginx.git',
+#  :ref => 'master'
+
+#mod 'profile',
+#  :git => 'https://github.com/mafitconsulting/puppet-profile.git',
+#  :ref => 'production'
+
+mod 'tivolilfa',
+  :git => 'https://github.com/mafitconsulting/tivolilfa.git',
+  :ref => 'development'
+>>>>>>> production
