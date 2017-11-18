@@ -35,5 +35,5 @@ mod 'tivolilfa',
   :ref => 'development'
 
 mod 'docker_management',
-  :git => 'https://github.com/mafitconsulting/docker_mod.git',
-  :ref => 'master'
+  :git => 'https://github.com/mafitconsulting/docker_management.git',
+  :ref => 'development'
