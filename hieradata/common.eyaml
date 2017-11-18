@@ -1,0 +1,12 @@
+---
+docker_management::pull_from_public_registry::password: >
+    ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+    DQYJKoZIhvcNAQEBBQAEggEACOHq4RvmWojAYY37DKCCm0K3sKQOxLHg/JVs
+    gz0oMhEn87vIaCWFgjoGrPdw19cguhHUrfzxkyoyam8MJI2+ifsUocJmXHsD
+    mKP7lrFS+MFgo1K4wlqL0fDsYqf/iJctrtZSeRxLjjN5hVUMkZQN8lD6nAKs
+    QtVE/NrHgpAj492oFSABKJl6zzlVRf4dqksc3lgR8H9BDoNRjcTzUbIcvAg0
+    16HuaO/xou7b+ZUcqJNi5d4Wo3VOdbhzMAUB7QKAcKzCUvtuA44BqIZnkWjI
+    2jgDLmeWFQIRkkhZwNCL9Ih64NZabpz1vp4rFT1mEuJ2wi2jG9ZHx/3Q3Nrg
+    BIZufzA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAhSKgWa1il9KVlJB10
+    6jxBgBDz8PwiIzW+cWYcEBPfVJhx]
+
