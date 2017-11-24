@@ -6,10 +6,11 @@ node {
    puppet.credentials 'pe-access-token'
 
    // Deploy enviornment to Dev
-   stage 'Deploy to development'
-   lock(‘puppet-code-development’) {
-     puppet.codeDeploy 'development'
-     puppet.job 'development'
+   stage 'Deploy to development' {
+     lock(‘puppet-code-development’) {
+       puppet.codeDeploy 'development'
+       puppet.job 'development'
+     }
    }
 }
        
