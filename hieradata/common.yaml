@@ -5,4 +5,13 @@ ntp::config::servers:
  - server 2.uk.pool.ntp.org
  - server 3.uk.pool.ntp.org
 
-
+docker_management::pull_from_public_registry::password: >
+    ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+    DQYJKoZIhvcNAQEBBQAEggEAMHPp6my5bf36Wy2v3yY1AlQG1zzLNN/sICFW
+    0ZMjhPSiwdKBH1CPURo1vc3qlJsVGgk75Tr5Ab1+FjWiezq0xz0UWiD7Uapr
+    2N6CV7ju2z+WHr8iiwD3Loq/+Ove0uFxaW1ZJOjUiwYHwX/swHQI5Dgl3+uc
+    SLMIM+1sGG/iXPG1xOOBs7c2YlqiCkI2SV9HM60xZBqR8Od9h613oJ9u+R8/
+    T2Tx9tqVdGvXh0ZGcLaj91aWPjjLOxHSsYZbOdObM+fpYquCYKrIlHz3i5IE
+    OCEmH87RNHO4+peXsnwUlu67geucQzOL6xKD3uaXgROqVOYBC02JeXQ1WgFv
+    11klfzA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCJi9e8n2clxWqJDJFb
+    nYfKgBAW79xTZsUrnwwLkn1YeSY2]
