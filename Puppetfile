@@ -18,9 +18,9 @@ mod 'garethr-docker', '5.3.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-#mod 'ntp',
-#  :git => 'https://github.com/mafitconsulting/puppet-ntp.git',
-# :ref => 'production'
+mod 'ntp',
+  :git => 'https://github.com/mafitconsulting/puppet-ntp.git',
+  :ref => 'development'
 
 #mod 'nginx',
 #  :git => 'https://github.com/mafitconsulting/puppet-nginx.git',
