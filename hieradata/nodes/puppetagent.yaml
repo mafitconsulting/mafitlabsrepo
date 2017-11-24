@@ -5,4 +5,3 @@ ntp::config::servers:
  - server 2.uk.pool.ntp.org
  - server 3.uk.pool.ntp.org
 
-
