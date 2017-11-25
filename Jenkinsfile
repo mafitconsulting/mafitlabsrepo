@@ -6,11 +6,15 @@ node {
    puppet.credentials 'deploy'
 
    // Deploy enviornment to Dev
-   stage ('Deploy to development') {
-     lock(‘puppet-code-development’) {
-       puppet.codeDeploy 'development'
-       puppet.job 'development', nodes: ['fieldhousem3.mylabserver.com','puppetagent']
-     }
-   }
+   //stage ('Deploy to development') {
+   //  lock(‘puppet-code-development’) {
+   //    puppet.codeDeploy 'development'
+   //    puppet.job 'development', nodes: ['fieldhousem3.mylabserver.com','puppetagent']
+   //  }
+   //}
+   stage 'Deploy to dev'
+   puppet.codeDeploy 'development'
+   puppet.job 'development'
+
 }
        
