@@ -1,9 +1,9 @@
 node('puppetmaster-slave') {
    // Configure branch
-   git branch: 'development', credentialsId: 'deploy', url: 'git@github.com:mafitconsulting/mafitlabsrepo.git'
+   git branch: 'development', credentialsId: 'jenkins_deploy', url: 'git@github.com:mafitconsulting/mafitlabsrepo.git'
   
    //Set the Jenkins credentials that hold out Puppet Enterprise RBAC token 
-   puppet.credentials 'deploy'
+   puppet.credentials 'jenkins_deploy'
 
    stage 'Deploy to dev'
    puppet.codeDeploy 'development'
