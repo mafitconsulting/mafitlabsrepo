@@ -1,4 +1,4 @@
-node('puppetmaster-slave') {
+node{
    // Configure branch
    git branch: 'development', credentialsId: 'jenkins_deploy', url: 'git@github.com:mafitconsulting/mafitlabsrepo.git'
   
